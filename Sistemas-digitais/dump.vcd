@@ -1,0 +1,93 @@
+$date
+	Fri Nov 17 21:15:04 2017
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module testbench $end
+$var wire 1 ! o $end
+$var reg 1 " i_b0 $end
+$var reg 1 # i_b1 $end
+$var reg 1 $ i_b2 $end
+$var reg 1 % i_b3 $end
+$scope module teste $end
+$var wire 1 & b0 $end
+$var wire 1 ' b1 $end
+$var wire 1 ( b2 $end
+$var wire 1 ) b3 $end
+$var wire 4 * entrada [3:0] $end
+$var wire 1 ! s0 $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+b0 *
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+0"
+1!
+$end
+#4
+0!
+1"
+1&
+b1 *
+#8
+1!
+0"
+0&
+1#
+1'
+b10 *
+#12
+1"
+1&
+b11 *
+#16
+0!
+0"
+0&
+0#
+0'
+1$
+1(
+b100 *
+#20
+1!
+1"
+1&
+b101 *
+#24
+0"
+0&
+1#
+1'
+b110 *
+#28
+1"
+1&
+b111 *
+#32
+0"
+0&
+0#
+0'
+0$
+0(
+1%
+1)
+b1000 *
+#36
+1"
+1&
+b1001 *
+#40
